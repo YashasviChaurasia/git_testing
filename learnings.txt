@@ -1,0 +1,22 @@
+git add file= adds file to git staging area
+git init = starts git repo for folder
+git status = gives status for git repository
+.gitignore=file with filenames to be ignored by git
+git branch = tells about all the branches
+git branch <name>=creates branch with branch name equals <name>
+git commit -m "message"=commits all files in staging area to master or branch 
+git checkout <branch name or hashcode of a commit>=switches head to that commit
+//basically head is the current position of git repo and master is the main branch you start with
+git log=gives log of all the commits
+git merge <branchname> =merges the branch to current branch
+
+git clone <url>==clones git repo from github
+git remote add <name> <url>=creates remote repository for git repository on github with remote repo named as
+<name> and <url> being the SHA token or https addres for new repository on github.
+
+makepkg -s =to build pkg on linux if all dependencies are installed// AUR ki baat hai yaha basically for ARCH based systems
+pacman -U <package location> =installs package into the systems
+git push <remote repo name> <branch name from local system which you want to commit>=pushes code to remote repo
+
+use fork on github to copy repo you want to work with and then modify/work on it and then send pull request after 
+completion. 
