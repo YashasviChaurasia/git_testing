@@ -21,5 +21,5 @@ def BSearch(start,end,nth,a,b):#s is start l in last p is to find a is arr
 a=17
 b=11
 n=9
-#print(min(a,b))
+print(min(a,b))
 print(BSearch(min(a,b),(min(a,b))*n,n,a,b))
